@@ -6,12 +6,42 @@
 form{
     width: 30%;
     margin: auto;
-    border: 2px solid;
     padding: 20px;
+    background-color:beige;
+    
+}
+
+button{
+    padding: 15px;
+    background-color: brown;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+button:hover{
+    background-color:chocolate;
+}
+.button_center{
+    padding-top: 15px;
+    text-align: center;
 }
 
 input{
     margin-bottom: 10px;
     height: 25px;
     font-size: 20px;
+}
+label{
+    font-size: 20px;
+}
+
+legend{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+fieldset{
+    border: none;
 }
